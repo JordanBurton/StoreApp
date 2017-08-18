@@ -1,0 +1,44 @@
+.background{
+	background-color: lightgrey
+}
+
+.wrapper{
+	margin: 5px
+}
+#logo {
+	margin: 0 auto;
+	color: red;
+	width: 50px;
+	z-index: 2;
+	position: relative;
+}
+.top-bar{
+	margin: auto;
+	width: 70%;
+	height: 100px;
+	border: solid 2px black;
+	background-color: grey;
+	z-index: 1
+	border-radius: 0px;
+}
+.left-bar{
+	width: 220px;
+	height: 600px;
+	border: solid 2px black;
+	background-color: grey;
+	z-index: 3
+	border-radius: 0px;
+	position: relative;
+	top: 5px
+}
+.right-bar{
+	width: 220px;
+	height: 600px;
+	border: solid 2px black;
+	background-color: grey;
+	z-index: 3
+	border-radius: 0px;
+	position: relative;
+	top: 5px
+	left: 300em;
+}
